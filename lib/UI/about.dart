@@ -21,8 +21,8 @@ class _AboutUsState extends State<AboutUs> {
             height: MediaQuery.of(context).size.height/8,
           ),
           Container(
-            height: 200,
-            width: 400,
+            height: 300,
+            width: 300,
             decoration: BoxDecoration(image: DecorationImage(image: AssetImage("assets/splash.png"),fit: BoxFit.fitWidth,) ),
           ),
           SizedBox(
